@@ -1,5 +1,149 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-image: var(--background-image);
+  background-color: var(--background-color);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto;
+  max-width: 1024px;
+}
+
+.cover {
+  padding: 20px;
+  height: 100vh;
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  position: relative;
+}
+
+.decorated-zone {
+
+}
+
+.area-rec {
+  position: absolute;
+}
+
+.header__theme-menu {
+
+}
+
+.header__theme-menu-list {
+
+}
+
+.header__theme-menu-item {
+
+}
+
+.header__theme-menu-button {
+
+}
+
+.header__section {
+
+}
+
+.cover__title {
+  color: #DB00FF;
+  font-family: var(--main-font);
+  font-size: 157px;;
+  font-style: var(--main-font-style);
+  font-weight: var(--title-font-weight);
+  line-height: 82.5%;
+  text-shadow: 4px 4px 0px var(--text-shadow-color);
+}
+
+.cover__title:last-child {
+  text-shadow: 2px 2px 0px var(--text-shadow-color);
+}
+
+.text-shadow {
+
+}
+
+.heading {
+
+}
+
+.paragraph__title-accent {
+
+}
+
+.title-decor {
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.content-section {
+
+}
+
+.content__why-section {
+
+}
+
+.list__title {
+
+}
+
+.content__paragraph-list {
+
+}
+
+.content__article {
+
+}
+
+.any-text {
+
+}
+
+.link {
+
+}
+
+.content__what-section {
+
+}
+
+.content__how-section {
+
+}
+
+.paragraph__title-accent_no {
+
+}
+
+.content__images-section {
+
+}
+
+.content__images-list {
+
+}
+
+.about-image {
+
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
