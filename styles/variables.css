@@ -4,18 +4,22 @@
   --desctop-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --main-font-size: 18px;
   --main-font-style: normal;
+  --title-font-weight: 700;
+  --paragraph-font-weight: 400;
+  --main-line-height: 23.4px;
   --background-image: url(../images/cover-image-dark.png);
   --background-color: #000028;
+  --main-title-color: #DB00FF;
+  --decor-color: #FF0070;
   --accent-background-color: #FF0070;
   --list-title-color: #FF0070;
   --accent-title-color: #000028;
   --paragraph-text-color: #F1B2CE;
   --text-shadow-color: #FF0070;
+  --link-text-color: #F1B2CE;
   --default-border-color: 1px solid #FF0070;
   --hover-border-color: 1px solid rgba(255, 0, 112, 0.40);
-  --link-text-color: #F1B2CE;
   --focus-border-link-text: 1px solid #F1B2CE;
   --article-gap: 20px;
-  --section-padding: 0 20px;
   --title-text-gap: 10px;
 }
