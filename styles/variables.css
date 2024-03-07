@@ -22,4 +22,5 @@
   --focus-border-link-text: 1px solid #F1B2CE;
   --article-gap: 20px;
   --title-text-gap: 10px;
+  --cover-padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
