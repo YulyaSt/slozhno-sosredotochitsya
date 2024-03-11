@@ -8,7 +8,7 @@
     --list-title-color: #353430;
     --paragraph-text-color: #353430;
     --text-shadow-color: #FF0070;
-    --link-text-color: #F1B2CE;
+    --link-text-color: #353430;
     --default-border-color: 1px solid #353430;
     --hover-border-color: 1px solid rgba(50, 49, 45, 0.40);
     --focus-border-link-text: 1px solid #353430;
@@ -25,7 +25,7 @@
     --list-title-color: #353430;
     --paragraph-text-color: #353430;
     --text-shadow-color: #FF0070;
-    --link-text-color: #F1B2CE;
+    --link-text-color: #353430;
     --default-border-color: 1px solid #353430;
     --hover-border-color: 1px solid rgba(50, 49, 45, 0.40);
     --focus-border-link-text: 1px solid #353430;
@@ -34,4 +34,10 @@
 
 .page.theme_light .aria-rec {
   display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  .page.theme_auto .aria-rec {
+    display: none;
+  }
 }
